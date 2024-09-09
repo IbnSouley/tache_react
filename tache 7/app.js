@@ -10,7 +10,7 @@ function toCelcius (Fahrenheit) {
 function toFahrenheit (celsius) {
     return (celsius * 9 / 5) + 32 
 }
-
+//1ere composant
 function BoilingVerdict(props) {
     if (props.celsius >= 100) {
         return <div className="alert alert-success w-50">L'eau bout</div>
@@ -53,7 +53,7 @@ class TemperatureInput extends React.Component {
                </div>
     }
 }
-
+//2e composant
 class Calculator extends React.Component {
 
     constructor(props){
