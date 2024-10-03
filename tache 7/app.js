@@ -49,6 +49,8 @@ class TemperatureInput extends React.Component {
                     value={temperature}
                     className="form-control"
                     onChange={this.handleChange}
+                    //onChange c'est pour mettre a jour les input
+                    //onClick utilise pour les buttons
                     />
                </div>
     }
